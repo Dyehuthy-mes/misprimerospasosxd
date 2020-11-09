@@ -27,5 +27,5 @@ while continuar == "y" or continuar== "Y":
     persona = preguntar_informacion()
     lista_personas.append(persona)
     continuar= input (" Ingresar otra persona ?  y/n: ")
-    if continuar=="n":
+    if continuar=="n" or continuar== "N":
         iterar_lista(lista_personas)
