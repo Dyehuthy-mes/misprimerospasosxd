@@ -19,7 +19,7 @@ def preguntar_informacion():
 def iterar_lista(lista_personas):
     file=open('lista_personas.txt', 'w')
     for persona in lista_personas:
-        file.write(persona["nombre"] + " " + str(persona["edad"] ))
+        file.write(persona["nombre"] + " " + str(persona["edad"]) + "\n")
 
 lista_personas=[]
 continuar="y"
